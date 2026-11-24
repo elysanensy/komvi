@@ -37,7 +37,14 @@
 
 **Masalah:** Menemukan objek bergerak dan melacak lintasannya dalam video.
 
-**Tahapan:** (1) Rekam minimal 10 video dengan variasi gerakan; (2) ekstraksi frame; (3) frame differencing atau MOG2; (4) segmentasi dan bounding box; (5) tracking dengan centroid/optical flow; (6) lintasan dan estimasi kecepatan dalam pixel/detik.
+**Tahapan:** 
+
+(1) Rekam minimal 10 video dengan variasi gerakan. 
+(2) ekstraksi frame
+(3) frame differencing atau MOG2
+(4) segmentasi dan bounding box
+(5) tracking dengan centroid/optical flow
+(6) lintasan dan estimasi kecepatan dalam pixel/detik.
 
 **Eksperimen wajib:** Bandingkan frame differencing vs MOG2 dan dua konfigurasi tracking; uji perubahan cahaya, kecepatan, dan occlusion.
 
@@ -47,7 +54,14 @@
 
 **Masalah:** Mengestimasi jarak relatif atau kedalaman dari pasangan citra kiri-kanan.
 
-**Tahapan:** (1) Siapkan stereo dataset atau sistem dua kamera; (2) kalibrasi dan rectification bila dibutuhkan; (3) grayscale; (4) hitung disparity dengan StereoBM dan StereoSGBM; (5) filtering/validasi disparity; (6) hitung depth **hanya bila** baseline dan focal length terkalibrasi tersedia.
+**Tahapan:** 
+
+(1) Siapkan stereo dataset atau sistem dua kamera
+(2) kalibrasi dan rectification bila dibutuhkan
+(3) grayscale
+(4) hitung disparity dengan StereoBM dan StereoSGBM
+(5) filtering/validasi disparity
+(6) hitung depth **hanya bila** baseline dan focal length terkalibrasi tersedia.
 
 **Eksperimen wajib:** Bandingkan StereoBM vs StereoSGBM, variasikan block size dan parameter; analisis area tanpa tekstur serta occlusion.
 
@@ -59,7 +73,15 @@
 
 **Masalah:** Mengukur dimensi komponen atau mendeteksi cacat/ketidaksesuaian produk dari citra.
 
-**Tahapan:** (1) Pilih komponen fisik, misalnya baut atau hasil 3D printing; (2) ambil minimal 50 foto; (3) segmentasi; (4) operasi morfologi; (5) contour/feature measurement; (6) kalibrasi pixel-ke-mm; (7) bandingkan dengan ukuran aktual dan/atau aturan toleransi.
+**Tahapan:** 
+
+(1) Pilih komponen fisik, misalnya baut atau hasil 3D printing
+(2) ambil minimal 20 foto
+(3) segmentasi
+(4) operasi morfologi
+(5) contour/feature measurement
+(6) kalibrasi pixel-ke-mm
+(7) bandingkan dengan ukuran aktual dan/atau aturan toleransi.
 
 **Eksperimen wajib:** Bandingkan dua metode segmentasi; variasikan pencahayaan; ukur error terhadap penggaris/jangka sorong.
 
