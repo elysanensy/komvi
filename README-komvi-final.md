@@ -20,7 +20,14 @@
 
 **Masalah:** Memperbaiki foto dokumen yang miring atau kurang jelas menjadi hasil pemindaian yang rapi.
 
-**Tahapan:** (1) Ambil minimal 30 foto dengan variasi latar, sudut, dan cahaya; (2) filtering dan grayscale; (3) edge/contour detection; (4) temukan empat corner; (5) perspective transform; (6) thresholding/peningkatan keterbacaan.
+**Tahapan:**
+
+1. Ambil minimal 30 foto dengan variasi latar, sudut, dan pencahayaan.
+2. Lakukan preprocessing menggunakan filtering dan konversi grayscale.
+3. Terapkan edge detection dan contour detection untuk mendeteksi batas dokumen.
+4. Temukan empat titik sudut (*corner*) dokumen.
+5. Lakukan perspective transform untuk mengoreksi perspektif dokumen.
+6. Terapkan thresholding atau teknik peningkatan kualitas citra untuk meningkatkan keterbacaan dokumen.
 
 **Eksperimen wajib:** Bandingkan Gaussian vs median filtering, serta global vs adaptive threshold; uji sudut miring dan cahaya rendah.
 
