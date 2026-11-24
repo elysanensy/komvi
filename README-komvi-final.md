@@ -90,7 +90,6 @@
 
 ```text
 FinalProject_KelompokXX/
-├── README.md                 # Identitas, pilihan proyek, cara menjalankan, hasil
 ├── requirements.txt          # Dependensi Python
 ├── src/
 │   └── main.py               # Entry point program
