@@ -2,7 +2,7 @@
 
 **Bahasa pemrograman:** Python  
 **Library utama:** OpenCV, NumPy, Matplotlib  
-**Anggota kelompok:** 2–3 mahasiswa
+**Anggota kelompok:** 8–9 mahasiswa
 
 > **Tujuan:** Merancang, mengimplementasikan, dan mengevaluasi solusi *computer vision* untuk menyelesaikan permasalahan nyata.
 
